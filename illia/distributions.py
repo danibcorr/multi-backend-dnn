@@ -1,19 +1,15 @@
-"""Probability distributions — re-exported from the active backend."""
+"""Public ``illia.distributions`` classes – backend-agnostic."""
 
 # Own modules
-from illia import __get_backend__, _check_backend_switch, _lock_backend
+from illia import BackendManager
 
-_check_backend_switch()
-_lock_backend()
 
-if __get_backend__ == "torch":
-    # Own modules
-    from illia.backend.torch.distributions import GaussianDistribution
-elif __get_backend__ == "tensorflow":
-    # Own modules
-    from illia.backend.tensorflow.distributions import GaussianDistribution
-elif __get_backend__ == "jax":
-    # Own modules
-    from illia.backend.jax.distributions import GaussianDistribution
+class GaussianDistribution:
+    """Learnable Gaussian distribution. Delegates to the active backend."""
+
+    def __new__(cls, *args, **kwargs):
+        impl = getattr(BackendManager.get_module("distributions"), "GaussianDistribution")
+        return impl(*args, **kwargs)
+
 
 __all__ = ["GaussianDistribution"]

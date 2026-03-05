@@ -5,7 +5,7 @@ import torch
 from torch import nn
 
 # Own modules
-from illia.base.nn.base import LinearBase
+from illia.backend.base.nn.base import LinearBase
 
 
 class Linear(LinearBase, nn.Module):

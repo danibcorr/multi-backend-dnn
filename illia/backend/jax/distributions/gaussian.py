@@ -6,7 +6,7 @@ import jax.numpy as jnp
 from flax import nnx
 
 # Own modules
-from illia.base.distributions.base import DistributionBase
+from illia.backend.base.distributions.base import DistributionBase
 
 
 class GaussianDistribution(DistributionBase, nnx.Module):

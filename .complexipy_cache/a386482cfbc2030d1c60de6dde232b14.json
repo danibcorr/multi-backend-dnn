@@ -1,9 +1,33 @@
 {
   "functions": [
     {
-      "complexity": 3,
+      "complexity": 0,
       "file_name": "__init__.py",
-      "function_name": "__getattr__",
+      "function_name": "BackendManager::get_available_backends",
+      "path": "illia/__init__.py"
+    },
+    {
+      "complexity": 0,
+      "file_name": "__init__.py",
+      "function_name": "BackendManager::is_backend_available",
+      "path": "illia/__init__.py"
+    },
+    {
+      "complexity": 1,
+      "file_name": "__init__.py",
+      "function_name": "BackendManager::get_module",
+      "path": "illia/__init__.py"
+    },
+    {
+      "complexity": 5,
+      "file_name": "__init__.py",
+      "function_name": "BackendManager::get_backend",
+      "path": "illia/__init__.py"
+    },
+    {
+      "complexity": 7,
+      "file_name": "__init__.py",
+      "function_name": "_discover_backends",
       "path": "illia/__init__.py"
     },
     {
@@ -221,6 +245,18 @@
       "file_name": "base.py",
       "function_name": "LinearBase::forward",
       "path": "illia/base/nn/base.py"
+    },
+    {
+      "complexity": 0,
+      "file_name": "distributions.py",
+      "function_name": "__getattr__",
+      "path": "illia/distributions.py"
+    },
+    {
+      "complexity": 0,
+      "file_name": "nn.py",
+      "function_name": "__getattr__",
+      "path": "illia/nn.py"
     }
   ],
   "targets": [

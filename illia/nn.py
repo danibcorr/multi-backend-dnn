@@ -1,19 +1,23 @@
-"""Neural network layers — re-exported from the active backend."""
+"""Public ``illia.nn`` layer classes – backend-agnostic."""
 
 # Own modules
-from illia import __get_backend__, _check_backend_switch, _lock_backend
+from illia import BackendManager
 
-_check_backend_switch()
-_lock_backend()
 
-if __get_backend__ == "torch":
-    # Own modules
-    from illia.backend.torch.nn import Conv2d, Linear
-elif __get_backend__ == "tensorflow":
-    # Own modules
-    from illia.backend.tensorflow.nn import Conv2d, Linear
-elif __get_backend__ == "jax":
-    # Own modules
-    from illia.backend.jax.nn import Conv2d, Linear
+class Linear:
+    """Fully-connected layer. Delegates to the active backend."""
+
+    def __new__(cls, *args, **kwargs):
+        impl = getattr(BackendManager.get_module("nn"), "Linear")
+        return impl(*args, **kwargs)
+
+
+class Conv2d:
+    """2-D convolution layer. Delegates to the active backend."""
+
+    def __new__(cls, *args, **kwargs):
+        impl = getattr(BackendManager.get_module("nn"), "Conv2d")
+        return impl(*args, **kwargs)
+
 
 __all__ = ["Conv2d", "Linear"]

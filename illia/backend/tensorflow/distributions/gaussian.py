@@ -9,7 +9,7 @@ import tensorflow as tf
 from keras import saving
 
 # Own modules
-from illia.base.distributions.base import DistributionBase
+from illia.backend.base.distributions.base import DistributionBase
 
 
 @saving.register_keras_serializable(package="illia", name="GaussianDistribution")

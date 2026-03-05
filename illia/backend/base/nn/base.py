@@ -1,5 +1,3 @@
-"""Abstract bases for neural-network layers."""
-
 # Standard libraries
 from abc import ABC, abstractmethod
 

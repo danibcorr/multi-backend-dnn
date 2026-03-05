@@ -1,0 +1,39 @@
+# Folders
+/data/
+/saved_objects/
+/runs/
+/models/
+__pycache__/
+.vscode/
+.mypy_cache/
+/results/
+*build/
+*dist/
+*venv/
+*env/
+*site/
+./examples/illia_all_backend_all_modules_pytests.ipynb
+*.egg-info/
+/docs/examples/Computer Vision/data*
+.complexipy_cache/
+.kiro
+
+# Files
+*.txt
+*.csv
+*.out
+*.parquet
+*.xlsx
+*.json
+*.pkl
+*.pt
+*.ini
+*.zip
+*.json
+*.pdf
+*.txt
+*.pth
+
+# Exceptions
+!/illia/config/*
+!/.devcontainer/*

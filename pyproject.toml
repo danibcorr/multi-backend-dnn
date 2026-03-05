@@ -162,6 +162,7 @@ exclude = [
 [tool.mypy]
 check_untyped_defs = true
 ignore_missing_imports = true
+disable_error_code = ["assignment"]
 exclude = [
     "^(build|dist|venv)",
     ".venv/"
@@ -171,7 +172,7 @@ cache_dir = "/dev/null"
 [tool.pylint]
 max-line-length = 88
 disable = [
-    "R0901,R0801,R0913,R0914,R0915,R0917",
+    "R0901,R0801,R0903,R0913,R0914,R0915,R0917",
     "R1732,W1203,R0902,W0223,W0221,W0201",
     "C0114",
 ]

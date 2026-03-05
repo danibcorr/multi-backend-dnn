@@ -5,7 +5,7 @@ import jax
 from flax import nnx
 
 # Own modules
-from illia.base.nn.base import LinearBase
+from illia.backend.base.nn.base import LinearBase
 
 
 class Linear(LinearBase, nnx.Module):

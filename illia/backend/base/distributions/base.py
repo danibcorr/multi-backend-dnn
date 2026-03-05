@@ -1,5 +1,3 @@
-"""Abstract base for probabilistic distributions."""
-
 # Standard libraries
 from abc import ABC, abstractmethod
 

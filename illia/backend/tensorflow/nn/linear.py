@@ -5,7 +5,7 @@ import tensorflow as tf
 from keras import layers
 
 # Own modules
-from illia.base.nn.base import LinearBase
+from illia.backend.base.nn.base import LinearBase
 
 
 class Linear(LinearBase, layers.Layer):

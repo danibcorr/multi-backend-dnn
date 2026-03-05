@@ -5,7 +5,7 @@ import torch
 from torch import nn
 
 # Own modules
-from illia.base.distributions.base import DistributionBase
+from illia.backend.base.distributions.base import DistributionBase
 
 
 class GaussianDistribution(DistributionBase, nn.Module):

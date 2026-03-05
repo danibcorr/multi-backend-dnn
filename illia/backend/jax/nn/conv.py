@@ -5,7 +5,7 @@ import jax
 from flax import nnx
 
 # Own modules
-from illia.base.nn.base import Conv2dBase
+from illia.backend.base.nn.base import Conv2dBase
 
 
 class Conv2d(Conv2dBase, nnx.Module):
