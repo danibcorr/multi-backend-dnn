@@ -1,0 +1,229 @@
+{
+  "functions": [
+    {
+      "complexity": 3,
+      "file_name": "__init__.py",
+      "function_name": "__getattr__",
+      "path": "illia/__init__.py"
+    },
+    {
+      "complexity": 0,
+      "file_name": "gaussian.py",
+      "function_name": "GaussianDistribution::__call__",
+      "path": "illia/backend/jax/distributions/gaussian.py"
+    },
+    {
+      "complexity": 0,
+      "file_name": "gaussian.py",
+      "function_name": "GaussianDistribution::__init__",
+      "path": "illia/backend/jax/distributions/gaussian.py"
+    },
+    {
+      "complexity": 0,
+      "file_name": "gaussian.py",
+      "function_name": "GaussianDistribution::num_params",
+      "path": "illia/backend/jax/distributions/gaussian.py"
+    },
+    {
+      "complexity": 0,
+      "file_name": "gaussian.py",
+      "function_name": "GaussianDistribution::sample",
+      "path": "illia/backend/jax/distributions/gaussian.py"
+    },
+    {
+      "complexity": 1,
+      "file_name": "gaussian.py",
+      "function_name": "GaussianDistribution::log_prob",
+      "path": "illia/backend/jax/distributions/gaussian.py"
+    },
+    {
+      "complexity": 0,
+      "file_name": "conv.py",
+      "function_name": "Conv2d::__call__",
+      "path": "illia/backend/jax/nn/conv.py"
+    },
+    {
+      "complexity": 0,
+      "file_name": "conv.py",
+      "function_name": "Conv2d::forward",
+      "path": "illia/backend/jax/nn/conv.py"
+    },
+    {
+      "complexity": 2,
+      "file_name": "conv.py",
+      "function_name": "Conv2d::__init__",
+      "path": "illia/backend/jax/nn/conv.py"
+    },
+    {
+      "complexity": 0,
+      "file_name": "linear.py",
+      "function_name": "Linear::__call__",
+      "path": "illia/backend/jax/nn/linear.py"
+    },
+    {
+      "complexity": 0,
+      "file_name": "linear.py",
+      "function_name": "Linear::__init__",
+      "path": "illia/backend/jax/nn/linear.py"
+    },
+    {
+      "complexity": 0,
+      "file_name": "linear.py",
+      "function_name": "Linear::forward",
+      "path": "illia/backend/jax/nn/linear.py"
+    },
+    {
+      "complexity": 0,
+      "file_name": "gaussian.py",
+      "function_name": "GaussianDistribution::__init__",
+      "path": "illia/backend/tensorflow/distributions/gaussian.py"
+    },
+    {
+      "complexity": 0,
+      "file_name": "gaussian.py",
+      "function_name": "GaussianDistribution::build",
+      "path": "illia/backend/tensorflow/distributions/gaussian.py"
+    },
+    {
+      "complexity": 0,
+      "file_name": "gaussian.py",
+      "function_name": "GaussianDistribution::get_config",
+      "path": "illia/backend/tensorflow/distributions/gaussian.py"
+    },
+    {
+      "complexity": 0,
+      "file_name": "gaussian.py",
+      "function_name": "GaussianDistribution::num_params",
+      "path": "illia/backend/tensorflow/distributions/gaussian.py"
+    },
+    {
+      "complexity": 0,
+      "file_name": "gaussian.py",
+      "function_name": "GaussianDistribution::sample",
+      "path": "illia/backend/tensorflow/distributions/gaussian.py"
+    },
+    {
+      "complexity": 1,
+      "file_name": "gaussian.py",
+      "function_name": "GaussianDistribution::log_prob",
+      "path": "illia/backend/tensorflow/distributions/gaussian.py"
+    },
+    {
+      "complexity": 0,
+      "file_name": "conv.py",
+      "function_name": "Conv2d::__init__",
+      "path": "illia/backend/tensorflow/nn/conv.py"
+    },
+    {
+      "complexity": 0,
+      "file_name": "conv.py",
+      "function_name": "Conv2d::call",
+      "path": "illia/backend/tensorflow/nn/conv.py"
+    },
+    {
+      "complexity": 0,
+      "file_name": "conv.py",
+      "function_name": "Conv2d::forward",
+      "path": "illia/backend/tensorflow/nn/conv.py"
+    },
+    {
+      "complexity": 0,
+      "file_name": "linear.py",
+      "function_name": "Linear::__init__",
+      "path": "illia/backend/tensorflow/nn/linear.py"
+    },
+    {
+      "complexity": 0,
+      "file_name": "linear.py",
+      "function_name": "Linear::call",
+      "path": "illia/backend/tensorflow/nn/linear.py"
+    },
+    {
+      "complexity": 0,
+      "file_name": "linear.py",
+      "function_name": "Linear::forward",
+      "path": "illia/backend/tensorflow/nn/linear.py"
+    },
+    {
+      "complexity": 0,
+      "file_name": "gaussian.py",
+      "function_name": "GaussianDistribution::__init__",
+      "path": "illia/backend/torch/distributions/gaussian.py"
+    },
+    {
+      "complexity": 0,
+      "file_name": "gaussian.py",
+      "function_name": "GaussianDistribution::num_params",
+      "path": "illia/backend/torch/distributions/gaussian.py"
+    },
+    {
+      "complexity": 0,
+      "file_name": "gaussian.py",
+      "function_name": "GaussianDistribution::sample",
+      "path": "illia/backend/torch/distributions/gaussian.py"
+    },
+    {
+      "complexity": 1,
+      "file_name": "gaussian.py",
+      "function_name": "GaussianDistribution::log_prob",
+      "path": "illia/backend/torch/distributions/gaussian.py"
+    },
+    {
+      "complexity": 0,
+      "file_name": "conv.py",
+      "function_name": "Conv2d::__init__",
+      "path": "illia/backend/torch/nn/conv.py"
+    },
+    {
+      "complexity": 0,
+      "file_name": "conv.py",
+      "function_name": "Conv2d::forward",
+      "path": "illia/backend/torch/nn/conv.py"
+    },
+    {
+      "complexity": 0,
+      "file_name": "linear.py",
+      "function_name": "Linear::__init__",
+      "path": "illia/backend/torch/nn/linear.py"
+    },
+    {
+      "complexity": 0,
+      "file_name": "linear.py",
+      "function_name": "Linear::forward",
+      "path": "illia/backend/torch/nn/linear.py"
+    },
+    {
+      "complexity": 0,
+      "file_name": "base.py",
+      "function_name": "DistributionBase::log_prob",
+      "path": "illia/base/distributions/base.py"
+    },
+    {
+      "complexity": 0,
+      "file_name": "base.py",
+      "function_name": "DistributionBase::num_params",
+      "path": "illia/base/distributions/base.py"
+    },
+    {
+      "complexity": 0,
+      "file_name": "base.py",
+      "function_name": "DistributionBase::sample",
+      "path": "illia/base/distributions/base.py"
+    },
+    {
+      "complexity": 0,
+      "file_name": "base.py",
+      "function_name": "Conv2dBase::forward",
+      "path": "illia/base/nn/base.py"
+    },
+    {
+      "complexity": 0,
+      "file_name": "base.py",
+      "function_name": "LinearBase::forward",
+      "path": "illia/base/nn/base.py"
+    }
+  ],
+  "targets": [
+    "/home/dani/Repositorios/multi-backend-dnn/illia"
+  ]
+}
